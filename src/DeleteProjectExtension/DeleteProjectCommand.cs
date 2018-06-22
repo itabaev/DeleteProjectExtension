@@ -97,7 +97,6 @@ namespace DeleteProjectExtension
             string message = activeProjects.Length == 1
                 ? string.Format(Resources.DeletingProjectMessage, $"'{activeProjects.First().Name}'")
                 : string.Format(Resources.DeletingProjectsMessage, string.Join(", ", activeProjects.Select(x => $"'{x.Name}'")));
-            string title = "";
 
             // Show a message box to prove we were here
             var messageBoxResult = VsShellUtilities.ShowMessageBox(
@@ -117,7 +116,7 @@ namespace DeleteProjectExtension
                 {
                     try
                     {
-                        string projectPath = ((string)Path.GetFullPath(project.Object.FullPath)).TrimEnd('\\');
+                        string projectPath = Path.GetDirectoryName(project.FileName)?.TrimEnd('\\');
 
                         dte.Solution.Remove(project);
 
