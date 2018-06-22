@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using DeleteProjectExtension.Properties;
 using EnvDTE;
+using Microsoft.VisualBasic.FileIO;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 using Task = System.Threading.Tasks.Task;
@@ -126,7 +127,7 @@ namespace DeleteProjectExtension
                         }
                         else
                         {
-                            Directory.Delete(projectPath, true);
+                            FileSystem.DeleteDirectory(projectPath, UIOption.OnlyErrorDialogs, RecycleOption.SendToRecycleBin, UICancelOption.DoNothing);
                         }
                     }
                     catch (Exception ex)

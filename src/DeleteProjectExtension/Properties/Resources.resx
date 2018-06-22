@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DeletingProjectMessage" xml:space="preserve">
-    <value>The project {0} and all the files and folders it contains will be deleted permanently.</value>
+    <value>The project {0} and all the files and folders it contains will be deleted.</value>
   </data>
   <data name="DeletingProjectsMessage" xml:space="preserve">
-    <value>Projects {0} and all files and folders contained in them will be deleted permanently.</value>
+    <value>Projects {0} and all files and folders contained in them will be deleted.</value>
   </data>
   <data name="SolutionAndProjectSameDirectoryMessage" xml:space="preserve">
     <value>Could not delete the project directory, because it is the same as the solution directory.</value>

@@ -61,7 +61,7 @@ namespace DeleteProjectExtension.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The project {0} and all the files and folders it contains will be deleted permanently..
+        ///   Looks up a localized string similar to The project {0} and all the files and folders it contains will be deleted..
         /// </summary>
         internal static string DeletingProjectMessage {
             get {
@@ -70,7 +70,7 @@ namespace DeleteProjectExtension.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Projects {0} and all files and folders contained in them will be deleted permanently..
+        ///   Looks up a localized string similar to Projects {0} and all files and folders contained in them will be deleted..
         /// </summary>
         internal static string DeletingProjectsMessage {
             get {

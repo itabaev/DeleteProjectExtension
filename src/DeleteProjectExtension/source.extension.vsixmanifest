@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="DeleteProjectExtension.0c0386eb-b6ff-4de0-bdb4-0fbe104a8f5c" Version="1.0.1" Language="en-US" Publisher="Iskandar Tabaev" />
+        <Identity Id="DeleteProjectExtension.0c0386eb-b6ff-4de0-bdb4-0fbe104a8f5c" Version="1.1" Language="en-US" Publisher="Iskandar Tabaev" />
         <DisplayName>Delete Project Extension</DisplayName>
         <Description xml:space="preserve">This extension allows you to remove the project from the solution and from the file system.</Description>
         <Icon>Resources\DeleteProjectCommandPackage.ico</Icon>

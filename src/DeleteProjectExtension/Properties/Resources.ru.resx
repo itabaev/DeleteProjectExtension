@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DeletingProjectMessage" xml:space="preserve">
-    <value>Проект {0} и все содержащиеся в нем файлы и папки будут удалены безвозвратно.</value>
+    <value>Проект {0} и все содержащиеся в нем файлы и папки будут удалены.</value>
   </data>
   <data name="DeletingProjectsMessage" xml:space="preserve">
-    <value>Проекты {0} и все содержащиеся в них файлы и папки будут удалены безвозвратно.</value>
+    <value>Проекты {0} и все содержащиеся в них файлы и папки будут удалены.</value>
   </data>
   <data name="SolutionAndProjectSameDirectoryMessage" xml:space="preserve">
     <value>Не удалось удалить директорию проекта, так как она совпадает с директорией решения.</value>
